@@ -1,7 +1,7 @@
 # Retropie-Manager
 Recalbox-Manager fork for RetroPie 4.x
 
-![alt tag](https://github.com/botolo78/RetroPie-Manager/blob/retropie/screenshot.png)
+![alt tag](https://github.com/Shakz76/RetroPie-Manager/blob/retropie/screenshot.png)
 
 # About
 
@@ -22,7 +22,7 @@ With Retropie-Manager you can
 # Limitations
 
 - In this release the virtual gamepad page has been removed.
-- It doesn't support subdirectories at ROMs dir (as reported [here](https://github.com/botolo78/RetroPie-Manager/issues/5))
+- It doesn't support subdirectories at ROMs dir (as reported [here](https://github.com/Shakz76/RetroPie-Manager/issues/5))
 
 
 # Install
@@ -48,7 +48,7 @@ sudo apt-get install python-virtualenv python-dev
 **Installing RetroPie-Manager**
 ```sh
 cd
-git clone https://github.com/botolo78/RetroPie-Manager.git
+git clone https://github.com/Shakz76/RetroPie-Manager.git
 cd RetroPie-Manager
 make install
 ```
@@ -125,7 +125,7 @@ make install
 sudo kill -9 $(pgrep -f RetroPie-Manager)
 cd 
 rm -rf Retropie-Manager
-git clone https://github.com/botolo78/RetroPie-Manager.git
+git clone https://github.com/Shakz76/RetroPie-Manager.git
 cd RetroPie-Manager
 make install
 ```
